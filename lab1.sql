@@ -34,10 +34,10 @@ describe employee;
 --Delete all emp from Mangalore
 delete from employee where emp_address Like '%Mangalore%'
 
-–Rename employee as employee1.
+-- Rename employee as employee1.
 Rename employee as employee1;
 
-–. Drop the table employee1.
+-- Drop the table employee1.
 drop table employee;
 
 
